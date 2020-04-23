@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+    int num;
+
+    printf("Enter a number:");
+    scanf("%d",&num);
+
+    switch(num){
+
+        case 1:printf("Fooditem - Pizza\n");
+               printf("Price - Rs 239");
+               break;
+
+        case 2:printf("Fooditem - Burger\n");
+               printf("Price - Rs 129");
+               break;
+
+        case 3:printf("Fooditem - Pasta\n");
+               printf("Price - Rs 179");
+               break;
+
+        case 4:printf("Fooditem - French Fries\n");
+               printf("Price - Rs 99");
+               break;
+
+        case 5:printf("Fooditem - Sandwich\n");
+               printf("Price - Rs 149");
+               break;
+        }
+}
